@@ -6,6 +6,7 @@
   <title>Rigo</title>
   <meta name="description" content="En liten katalog över vad vi arbetar med." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
 
@@ -23,7 +24,7 @@
   <!-- ── Hero ── -->
   <header id="top">
     <div class="container">
-      <div class="hero-icon" aria-hidden="true"></div>
+      <img src="logo.png" alt="Rigo" class="hero-logo" />
       <h1>Rigo</h1>
       <p class="subtitle">
         En liten katalog över var vi syns online -
@@ -85,7 +86,11 @@
 
           <div class="card">
             <h3>Rigo Consulting AB</h3>
-            <p>Professionell konsultverksamhet.</p>
+            <p>
+              Rigo Consulting har fokus på Continuous Delivery, CI/CD och
+              developer experience. Bolaget är knutet till
+              Tabete, ett kollektiv av seniora oberoende konsulter.
+            </p>
             <div class="links">
               <a href="https://rigo.consulting/">rigo.consulting</a>
             </div>
@@ -93,9 +98,9 @@
 
           <div class="card">
             <h3>Kost & Näring</h3>
-            <p>Elin Rigo är ordförande i Kost & Näring, branschföreningen för offentliga måltidsverksamheter i Sverige.</p>
+            <p>Kost & Näring är en branschförening för offentliga måltidsverksamheter i Sverige.</p>
             <div class="links">
-              <a href="https://www.kostochnaring.se/om-oss/organisation/styrelse/" target="_blank" rel="noopener">Styrelsen - kostochnaring.se</a>
+              <a href="https://www.kostochnaring.se/om-oss/organisation/styrelse/">Styrelsen - kostochnaring.se</a>
             </div>
           </div>
 
@@ -103,7 +108,7 @@
             <h3>BaCON - Bioinformatic CONtext menus</h3>
             <p>
               BaCON är ett Chrome-tillägg som lägger till en högerklicksmeny med bioinformatikverktyg
-              för markerade sekvenser - BLAST, EMBOSS med mera - direkt i webbläsaren.
+              för markerade sekvenser - direkt i webbläsaren.
             </p>
             <div class="links">
               <a href="https://bacon.rigo.nu">bacon.rigo.nu</a>
@@ -113,7 +118,7 @@
           <div class="card">
             <h3>Dungeons & Dragons</h3>
             <p>
-              Egna regler, kampanjer och verktyg för Dungeons & Dragons 5:e.
+              Egna regler, kampanjer och verktyg för D&D 5:e.
             </p>
             <div class="links">
               <a href="https://dnd.rigo.nu">dnd.rigo.nu</a>
@@ -125,6 +130,17 @@
             <p>Verktyg för det webbaserade fotbollsspelet Hattrick.</p>
             <div class="links">
               <a href="https://ht.kvarak.net">ht.kvarak.net</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Continuous Delivery: The Game</h3>
+            <p>
+              Ett brädspel om utmaningarna med att leverera mjukvara - spelare samarbetar för att
+              driftsätta funktioner medan de hanterar teknisk skuld, incidenter och flaskhalsar.
+            </p>
+            <div class="links">
+              <a href="https://boardgamegeek.com/boardgame/238760/continuous-delivery-the-game">BoardGameGeek</a>
             </div>
           </div>
 
@@ -140,18 +156,25 @@
           Några av oss är eller har varit verksamma inom forskning och akademi. Här finns länkar till
           publikationer och profiler.
         </p>
-        <ul class="link-list">
-          <li>
-            <a href="https://scholargps.com/scholars/42850747224874/robert-rigo">
-              Robert Rigo - tidskriftsartiklar och citeringar vid Uppsala universitet
-            </a>
-          </li>
-          <li>
-            <a href="https://portal.research.lu.se/sv/persons/jana-hagman/">
-              Jana Hagman - publikationer och aktiviteter vid Lunds universitet
-            </a>
-          </li>
-        </ul>
+        <div class="cards">
+
+          <div class="card">
+            <h3>Robert Rigo</h3>
+            <p>tidskriftsartiklar och citeringar vid Uppsala universitet.</p>
+            <div class="links">
+              <a href="https://scholargps.com/scholars/42850747224874/robert-rigo">ScholarGPS</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Jana Hagman</h3>
+            <p>Publikationer och forskningsaktiviteter vid Lunds universitet.</p>
+            <div class="links">
+              <a href="https://portal.research.lu.se/sv/persons/jana-hagman/">LU forskningsportal</a>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
@@ -174,6 +197,18 @@
         </p>
       </div>
     </section>
+
+    <!-- ── Contact ── -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Kontakt</h2>
+        <p>
+          Vill du komma i kontakt med någon av oss? Skicka ett mail till
+          <a href="mailto:info@rigo.nu">info@rigo.nu</a>.
+        </p>
+      </div>
+    </section>
+
 
   </main>
 
